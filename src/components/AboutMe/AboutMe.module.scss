@@ -1,0 +1,42 @@
+.aboutMe {
+    background-color: #FFFFFF;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.profilePic {
+    flex: 1;
+    text-align: center;
+}
+
+.profilePic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.description {
+    flex: 2;
+    padding-left: 2rem;
+}
+
+.contactButton {
+    background-color: #FCA311;
+    color: #14213D;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contactButton:hover {
+    background-color: #e69100;
+}
