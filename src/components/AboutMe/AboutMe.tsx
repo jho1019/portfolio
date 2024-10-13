@@ -21,7 +21,7 @@ const AboutMe: React.FC = () => {
                 <div className={styles.description}>
                     <h1>Johnny Ho</h1>
                     <p>Hi! I’m Johnny, a software engineer with {yearsOfExperience} years of experience in full-stack development. I specialize in building scalable web applications and solving complex technical problems using technologies like JavaScript, React, Node.js, and Python. I’m passionate about turning ideas into clean, efficient code and love collaborating on innovative projects. Let’s connect and explore how we can work together!</p>
-                    <button className={styles.contactButton}>Contact Me</button>
+                    <button className={styles.contactButton}>Contact Me Now</button>
                 </div>
             </div>
         </section>
